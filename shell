@@ -7,4 +7,5 @@ echo "#!/bin/bash" > ${filename}
 chmod +x ${filename}
 git add .
 git commit -m "${filename}"
+git push
 
